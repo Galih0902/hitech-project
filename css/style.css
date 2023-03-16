@@ -1,0 +1,104 @@
+#form {
+    font-variant: small-caps;
+    color: black;
+    padding: 25px;
+    background-color: #94dbd8;
+    line-height: 20px;
+    max-width: 370px;
+    border: 15px solid brown;
+    color: brown;
+    
+    
+}
+
+#forminfo {
+    font-variant: small-caps;
+    color: black;
+    padding: 25px;
+    background-color: #94dbd8;
+    line-height: 20px;
+    max-width: 570px;
+    border: 15px solid brown;
+    color: brown;
+    
+}
+
+#border {
+    font-variant: small-caps;
+    color: black;
+    padding: 25px;
+    background-color: #94dbd8;
+    line-height: 15px;
+    max-width: 0 auto;
+    border: 15px solid brown;
+    color: brown;
+    font-size: 10px;
+    
+}
+
+#borderweb {
+    font-variant: normal;
+    color:cadetblue;
+    padding: 25px;
+    background-color: #94dbd8;
+    line-height: 15px;
+    max-width: 0 auto;
+    border: 15px solid brown;
+    color:dimgray;
+    font-size: 15px;
+}
+
+
+
+input[type=submit]{
+	width: 20%;
+	background-color: brown;
+	color: #fff;
+	border: 5px solid #fff;
+	padding: 10px;
+	font-size: 10px;
+	cursor: pointer;
+	
+}
+
+input[name=reset]{
+	width: 20%;
+	background-color: brown;
+	color: #fff;
+	border: 5px solid #fff;
+	padding: 10px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+
+h2 #tulisan-login{
+	background-color: #feffed;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	margin: -10px -40px;
+	padding: 15px;
+	color: #0c2e69;
+}
+
+h1{
+    font-variant: small-caps;
+	color: brown;
+}
+
+
+input[type=text], input[type=password],input[type=int],input[type=double]{
+	width: 73.5%;
+	padding: 5px;
+	margin-top: 1px;
+	border: 5px solid #ccc;
+	padding-left: 5px;
+	font-size: 12px;
+	font-family: raleway;
+}
+
+input[type=radio]{
+	width: 5%;
+	margin-top: 12px;
+	font-family: raleway;
+}

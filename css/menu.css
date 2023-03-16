@@ -1,0 +1,245 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+}
+
+#wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    background-color: #94dbd8;
+    padding: 32px;
+    height: auto;
+    border: 5px solid brown;
+}
+
+#borderhome {
+    font-variant: small-caps;
+    color:cadetblue;
+    padding: 70px;
+    background-color: darkturquoise;
+    line-height: 15px;
+    max-width: 0 auto;
+    color:dimgray;
+    font-size: 15px;
+}
+
+#borderhome1 {
+    font-variant: small-caps;
+    color:cadetblue;
+    padding: 90px;
+    background-color: IndianRed;
+    color:dimgray;
+    font-size: 15px;
+}
+
+#borderhome2 {
+    font-variant: small-caps;
+    color:cadetblue;
+    padding: 120px;
+    background-color: #827f79;
+    line-height: 15px;
+    max-width: 0 auto;
+    color:dimgray;
+    font-size: 15px;
+}
+#borderhome3 {
+    font-variant: small-caps;
+    color:cadetblue;
+    padding: 170px;
+    background-color:#f5f8ce;
+    line-height: 15px;
+    max-width: 0 auto;
+    color:dimgray;
+    font-size: 15px;
+}
+
+.content{
+background:#fff;
+padding:10px;
+min-height:300px;
+}
+
+/*=========halaman admin===========*/
+#main{
+	width: 400px;
+	margin: 80px auto;
+	font-family: raleway;
+	text-align: center;
+}
+
+span{
+	color: #ef6f11;
+}
+
+h2 #tulisan-login{
+	background-color: #feffed;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	margin: 10px 40px;
+	padding: 15px;
+	color: #0c2e69;
+}
+
+h1{
+    font-variant: small-caps;
+	color: brown;
+}
+
+hr{
+	border: 0;
+	border-bottom: 3px solid #ccc;
+	margin:10px -40px;
+	margin-bottom: 10px; 
+}
+
+#login{
+	width: 300px;
+	float: left;
+	border-radius: 10px;
+	font-family: raleway;
+	border: 1px solid #eee;
+	padding: 10px 40px 25px;
+	margin-top: 20px;
+	background-color: #94dbd8;
+}
+
+input[type=text], input[type=password]{
+	width: 83.5%;
+	padding: 10px;
+	margin-top: 8px;
+	border: 5px solid #ccc;
+	padding-left: 5px;
+	font-size: 20px;
+	font-family: raleway;
+}
+
+/*=========halaman admin===========*/
+
+input[type=submit]{
+	width: 100%;
+	background-color: brown;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: #6495ed;
+}
+
+
+header {
+    background: brown;
+    height: 150px;
+    padding: 4px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+    line-height: 50px;
+    font-variant: small-caps;
+}
+
+header h2 {
+    
+    text-align: center;
+    color: black;
+}
+
+.main_menu {
+    text-align: center;
+    margin-top:  10px;
+    background-color: #818181;
+}
+
+ul.main_menu{
+    
+    margin-top:  55px;
+}
+
+.main_menu li {
+    display:inline;
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+}
+
+.main_menu a{
+    text-decoration: none;
+    color: brown;
+    padding: 1px;
+    font-variant: small-caps;
+}
+
+.main_menu a:hover{
+    color: black;
+    
+}
+
+nav {
+	margin: 50px auto; 
+	text-align: center;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+    nav ul {
+	background: grey; 
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+	}
+		nav ul li:hover {
+			background: #666;
+		}
+			nav ul li:hover a {
+				color: #fff;
+			}
+		
+		nav ul li a {
+			display: block; padding: 25px 40px;
+			color: #fff; text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+		background: grey; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid grey;
+			border-bottom: 1px solid grey; position: relative;
+		}
+			nav ul ul li a {
+				padding: 15px 40px;
+				color: #fff;
+			}	
+				nav ul ul li a:hover {
+					background: #666;
+				}
+		
+	nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+}
